@@ -1,0 +1,24 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Mac 系统文件
+.DS_Store
+
+# 本地数据与备份（保护你的隐私数据，只上传代码）
+data/*.json
+data/*.json.bak
+data/logs/
+data/bg.png
+data/bg.jpg
+
+# 排除打包生成的临时文件
+build/
+dist/
+*.spec
